@@ -1,8 +1,22 @@
 # Raag Recognition Deep Learning Model
 
 ## Introduction
+This repository contains a deep learning model designed to recognize and classify three Indian classical raags: Bhairav, Malkans, and Yaman. The project was developed as an End Semester project by AIML students Sai Bhujbal and Tanay Kende under the guidance of the Symbiosis Institute of Technology. The model is built using a custom hybrid architecture that combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks. This approach leverages both spatial and temporal features of the audio data, making it well-suited for the task of raag recognition.
 
-This repository contains a deep learning model designed to recognize and classify three Indian classical raags: Bhairav, Malkans, and Yaman. The model is built using a custom hybrid architecture that combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks. This approach leverages both spatial and temporal features of the audio data, making it well-suited for the task of raag recognition.
+## Raag Information
+In indian classical music, Raag is a melodic framework for improvisation in Indian classical music akin to a melodic mode. Each raga has its unique essence which depicts a particular mood and set of emotions. The classification system of audio files based on how closely they resemble with a particular Raag can be used for Mood based music classification and recommendation system which will not only classify mood of indian classical music but also work on other genres as raag is Fundamental backbone of melodies.
+
+### Bhairav
+
+Raag Bhairav is an early morning raag, which is very serene and calm. It uses both shuddh and komal (flat) notes, creating a solemn and pious atmosphere. It is typically performed at the break of dawn.
+
+### Malkans
+
+Raag Malkans, also known as Malkauns, is a late-night raag. It is performed from midnight to dawn and is known for its deep, serious, and heavy mood. It uses komal (flat) notes and shuddh (pure) notes in a specific manner to evoke a meditative state.
+
+### Yaman
+
+Raag Yaman is a popular evening raag that exudes romance and tranquility. It is typically performed after sunset and uses all sharp (teevra) notes, except for the shuddh (pure) note in the madhyam (middle) scale.
 
 ## Features
 
@@ -13,8 +27,9 @@ The features used for training the model are extracted from audio files using th
 - **Spectral Contrast:** Measures the difference in amplitude between peaks and valleys in a sound spectrum, capturing the timbral texture.
 - **Tonnetz:** Represents the harmonic relations between pitches, useful for understanding the tonal characteristics.
 
-You can download the pre-extracted features from the following link:
-[Feature Drive Link](https://drive.google.com/drive/folders/1ycnhABr7tuv7_BlTUdzKa39wEF0iPDgm?usp=sharing)
+You can download the pre-extracted features as well as audio file dataset from the following link:
+[Feature Drive Link](https://drive.google.com/drive/folders/1ycnhABr7tuv7_BlTUdzKa39wEF0iPDgm?usp=drive_link)
+[Audio Files Dataset](https://drive.google.com/drive/folders/1liqSKms12gwcWsmjFH6hj12Wp5iewa0y?usp=drive_link)
 
 ## Data Preparation
 
@@ -89,6 +104,8 @@ We aim to further develop this model into an AI Raag Tutor that can assist music
 3. **Real-time Feedback:** Develop a real-time feedback system to provide instant guidance and corrections to musicians.
 4. **Additional Raags:** Expand the model to recognize a wider range of raags by incorporating more data and training for additional classes.
 5. **User Interface:** Create an intuitive user interface that allows users to easily interact with the AI Raag Tutor.
+
+Detecting emotion patterns based on listening history of a user in audio playing applications like Spotify, Apple music etc. 
 
 By implementing these upgrades, we hope to create a comprehensive tool that not only identifies raags but also aids in the learning and practice of Indian classical music.
 
