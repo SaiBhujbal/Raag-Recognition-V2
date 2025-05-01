@@ -1,7 +1,7 @@
 # Raag Recognition Deep Learning Model
 
 ## Introduction
-This repository contains a deep learning model designed to recognize and classify three Indian classical raags: Bhairav, Malkans, and Yaman. The project was developed as an End Semester project by AIML students Sai Bhujbal and Tanay Kende under the guidance of the Symbiosis Institute of Technology. The model is built using a custom hybrid architecture that combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks. This approach leverages both spatial and temporal features of the audio data, making it well-suited for the task of raag recognition.
+This repository contains a deep learning model designed to recognize and classify three Indian classical raags: Bhairav, Malkans, and Yaman. The model is built using a custom hybrid architecture that combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks. This approach leverages both spatial and temporal features of the audio data, making it well-suited for the task of raag recognition.
 
 ## Raag Information
 In indian classical music, Raag is a melodic framework for improvisation in Indian classical music akin to a melodic mode. Each raga has its unique essence which depicts a particular mood and set of emotions. The classification system of audio files based on how closely they resemble with a particular Raag can be used for Mood based music classification and recommendation system which will not only classify mood of indian classical music but also work on other genres as raag is Fundamental backbone of melodies.
